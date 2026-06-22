@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LaCare — Студия красоты</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Навигация -->
+  <header class="header" id="header">
+    <div class="container nav">
+      <a class="logo" href="#">La<span>Care</span></a>
+      <nav class="nav-links">
+        <a href="#services">Услуги</a>
+        <a href="#works">Работы</a>
+        <a href="#about">О нас</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#booking" class="btn-nav">Записаться</a>
+      </nav>
+      <button class="burger" id="burger">&#9776;</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-sub">Студия красоты · Москва</p>
+      <h1>Твои руки<br/>заслуживают<br/><em>лучшего</em></h1>
+      <p class="hero-desc">Маникюр, педикюр и уход за ногтями — в атмосфере уюта и заботы</p>
+      <div class="hero-btns">
+        <a href="#booking" class="btn-primary">Записаться онлайн</a>
+        <a href="#services" class="btn-ghost">Наши услуги</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="hero-img-wrap">
+        <div class="hero-placeholder"></div>
+        <div class="hero-badge">
+          <span class="badge-num">500+</span>
+          <span class="badge-text">довольных клиентов</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Услуги -->
+  <section class="section" id="services">
+    <div class="container">
+      <p class="section-label">Что мы делаем</p>
+      <h2 class="section-title">Услуги</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">💅</div>
+          <h3>Маникюр</h3>
+          <p>Классический, аппаратный, комбинированный. Любое покрытие гель-лаком.</p>
+          <div class="service-price">от 1 500 ₽</div>
+        </div>
+        <div class="service-card featured">
+          <div class="service-badge-card">Хит</div>
+          <div class="service-icon">✨</div>
+          <h3>Маникюр + дизайн</h3>
+          <p>Покрытие гель-лаком с авторским дизайном: геометрия, цветы, французский.</p>
+          <div class="service-price">от 2 500 ₽</div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🌸</div>
+          <h3>Педикюр</h3>
+          <p>Аппаратный педикюр с уходом за кожей стоп. Покрытие по желанию.</p>
+          <div class="service-price">от 2 000 ₽</div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">💎</div>
+          <h3>Наращивание</h3>
+          <p>Наращивание ногтей гелем или акрилом. Коррекция и снятие.</p>
+          <div class="service-price">от 3 000 ₽</div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🫧</div>
+          <h3>SPA-уход</h3>
+          <p>Парафинотерапия, питательные маски, массаж рук — полное восстановление.</p>
+          <div class="service-price">от 800 ₽</div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">👰</div>
+          <h3>Свадебный</h3>
+          <p>Выезд к клиенту, маникюр невесты и подружек. Бронирование заранее.</p>
+          <div class="service-price">от 4 000 ₽</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Работы -->
+  <section class="section section-dark" id="works">
+    <div class="container">
+      <p class="section-label light">Наши работы</p>
+      <h2 class="section-title light">Портфолио</h2>
+      <div class="works-grid">
+        <div class="work-item" style="--c:#f8d7da"></div>
+        <div class="work-item" style="--c:#d4edda"></div>
+        <div class="work-item" style="--c:#d1ecf1"></div>
+        <div class="work-item" style="--c:#ffeeba"></div>
+        <div class="work-item" style="--c:#e2d9f3"></div>
+        <div class="work-item" style="--c:#f8d7da"></div>
+      </div>
+      <p class="works-note">Больше работ в нашем <a href="#" class="link-accent">Instagram</a></p>
+    </div>
+  </section>
+
+  <!-- О нас -->
+  <section class="section" id="about">
+    <div class="container about-wrap">
+      <div class="about-text">
+        <p class="section-label">О студии</p>
+        <h2 class="section-title">Почему выбирают нас</h2>
+        <div class="about-list">
+          <div class="about-item">
+            <div class="about-num">01</div>
+            <div>
+              <h4>Стерильность</h4>
+              <p>Одноразовые инструменты или автоклав после каждого клиента. Ваша безопасность — наш приоритет.</p>
+            </div>
+          </div>
+          <div class="about-item">
+            <div class="about-num">02</div>
+            <div>
+              <h4>Мастера с опытом от 3 лет</h4>
+              <p>Постоянное обучение, участие в профессиональных конкурсах.</p>
+            </div>
+          </div>
+          <div class="about-item">
+            <div class="about-num">03</div>
+            <div>
+              <h4>Профессиональная косметика</h4>
+              <p>Работаем только с сертифицированными материалами ведущих брендов.</p>
+            </div>
+          </div>
+          <div class="about-item">
+            <div class="about-num">04</div>
+            <div>
+              <h4>Удобная запись</h4>
+              <p>Онлайн-запись 24/7, напоминание за день до визита.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-stats">
+        <div class="stat-card">
+          <div class="stat-num">5</div>
+          <div class="stat-label">лет на рынке</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">12</div>
+          <div class="stat-label">мастеров</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">500+</div>
+          <div class="stat-label">клиентов</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">4.9</div>
+          <div class="stat-label">рейтинг</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Отзывы -->
+  <section class="section section-pink" id="reviews">
+    <div class="container">
+      <p class="section-label">Клиенты о нас</p>
+      <h2 class="section-title">Отзывы</h2>
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p>«Хожу уже год, никогда не разочаровывалась. Мастер Аня — просто волшебница, всегда угадывает что я хочу даже без слов.»</p>
+          <div class="reviewer">Мария К.</div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p>«Сделала маникюр перед свадьбой — получилось именно то, о чём мечтала. Спасибо огромное! Все гости спрашивали где делала.»</p>
+          <div class="reviewer">Елена В.</div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p>«Чисто, уютно, мастера внимательные. Педикюр держится уже 4 недели — это рекорд для меня. Однозначно рекомендую!»</p>
+          <div class="reviewer">Ольга Т.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Запись -->
+  <section class="section" id="booking">
+    <div class="container booking-wrap">
+      <div class="booking-text">
+        <p class="section-label">Онлайн-запись</p>
+        <h2 class="section-title">Запишитесь<br/>прямо сейчас</h2>
+        <p class="booking-desc">Выберите удобное время и мы подтвердим запись в течение 15 минут</p>
+        <div class="contacts">
+          <div>📍 Москва, ул. Примерная, 1</div>
+          <div>📞 +7 (999) 123-45-67</div>
+          <div>🕐 Пн–Вс: 10:00 – 21:00</div>
+        </div>
+      </div>
+      <form class="booking-form" id="bookingForm">
+        <div class="form-group">
+          <label>Ваше имя</label>
+          <input type="text" placeholder="Анна" required />
+        </div>
+        <div class="form-group">
+          <label>Телефон</label>
+          <input type="tel" placeholder="+7 (___) ___-__-__" required />
+        </div>
+        <div class="form-group">
+          <label>Услуга</label>
+          <select>
+            <option value="">Выберите услугу</option>
+            <option>Маникюр</option>
+            <option>Маникюр + дизайн</option>
+            <option>Педикюр</option>
+            <option>Наращивание</option>
+            <option>SPA-уход</option>
+            <option>Свадебный маникюр</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Удобная дата</label>
+          <input type="date" />
+        </div>
+        <div class="form-group">
+          <label>Комментарий</label>
+          <textarea placeholder="Пожелания к мастеру или дизайну..."></textarea>
+        </div>
+        <button type="submit" class="btn-primary btn-full">Отправить заявку</button>
+        <p class="form-note">Нажимая кнопку, вы соглашаетесь с <a href="#">политикой конфиденциальности</a></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Футер -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#">La<span>Care</span></a>
+      <p>© 2025 LaCare. Все права защищены.</p>
+      <div class="footer-links">
+        <a href="#">Instagram</a>
+        <a href="#">ВКонтакте</a>
+        <a href="#">Telegram</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="success-popup" id="popup">
+    <div class="popup-inner">
+      <div class="popup-icon">✓</div>
+      <h3>Заявка отправлена!</h3>
+      <p>Мы свяжемся с вами в течение 15 минут</p>
+      <button onclick="document.getElementById('popup').classList.remove('show')">Закрыть</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
